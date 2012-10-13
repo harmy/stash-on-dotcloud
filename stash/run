@@ -1,4 +1,4 @@
 #!/bin/sh
 export JAVA_HOME=/usr/lib/jvm/java-6-openjdk/
-sed -i 's/<Connector port="8080"/<Connector port="'$PORT_WWW'"/' ~/atlassian/stash/conf/server.xml
+sed -i 's/<Connector port="7990"/<Connector port="'$PORT_WWW'"/' ~/atlassian/stash/conf/server.xml
 exec ~/atlassian/stash/bin/start-stash.sh -fg
