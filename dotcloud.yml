@@ -1,14 +1,14 @@
-jira:
+stash:
   type: custom
-  buildscript: jira/builder
+  buildscript: stash/builder
   ports:
     www: http
 
 ## Uncomment this to add a MySQL database
-#jiradb:
+#db:
 #  type: mysql
 
 ## Or this for a PostgreSQL database
-#jiradb:
+#db:
 #  type: postgresql
 
