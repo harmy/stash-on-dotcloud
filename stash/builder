@@ -4,8 +4,7 @@ then
 	echo 'Stash seems to be installed already. Skipping build.'
 else
 	echo 'Installing Stash...'
-	curl http://www.atlassian.com/software/stash/downloads/binary/atlassian-stash-1.3.0.tar.gz | 
-		tar -C ~ -zxf-
+	curl http://www.atlassian.com/software/stash/downloads/binary/atlassian-stash-1.3.0.tar.gz | tar -C ~ -zxf-
 	echo 'Installing my own files...'
 	cp -a stash/. ~
 	echo 'Done.'
