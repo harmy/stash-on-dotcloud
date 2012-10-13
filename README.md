@@ -32,7 +32,7 @@ changes to the platform.
 
 ## Caveat Emptor
 
-This installation of JIRA is not scaled across multiple instances.
+This installation of Stash is not scaled across multiple instances.
 It should be pretty reliable, but if you need super high availability,
 you should check with dotCloud and/or Atlassian for a more custom,
 battle-hardened, setup.
