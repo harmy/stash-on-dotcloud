@@ -5,8 +5,8 @@ stash:
     www: http
 
 ## Uncomment this to add a MySQL database
-#db:
-#  type: mysql
+db:
+  type: mysql
 
 ## Or this for a PostgreSQL database
 #db:
