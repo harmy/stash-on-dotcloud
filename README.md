@@ -1,4 +1,4 @@
-# Stash on dotCloud
+# Stash on dotCloud (Not working yet)
 
 Deploy Stash on dotCloud in 60 seconds, thanks to our (un)patented
 two-lines "clone-and-push" deployment method:
